@@ -1,3 +1,4 @@
 <?php 
-echo "Ejemplo Git ";
+echo "Ejemplo Git 2 ";
+phpinfo();
 ?>
