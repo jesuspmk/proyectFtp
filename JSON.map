@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAI;EACF,KAAK,ECKC,OAAO;ECHb,SAAS,EAAE,IAAQ;EACnB,SAAS,EAAE,IAAmB;EAM9B,gBAAgB,EADF,KAAmC;EAEjD,gBAAgB,EFRC,IAAI;;AAEvB,SAAU;EACR,KAAK,ECAC,OAAO",
+"sources": ["skin/frontend/base/default/css/custom.scss","skin/frontend/base/default/css/config.scss","skin/frontend/base/default/css/functions.scss"],
+"names": [],
+"file": "JSON"
+}
