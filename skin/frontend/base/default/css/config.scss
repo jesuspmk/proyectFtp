@@ -1,0 +1,14 @@
+$fuentep: 'Open Sans', sans-serif;
+$fuentet: 'league_gothic';
+$b: 700;
+$r: 400;
+$l: 300;
+$browser-context: 14;
+
+$res-collection:           (320, 480, 768, 1024, 1280, 1680);
+$orientation-collection:   (all, portrait, landscape);
+$hdpi-collection:          (1, 2);
+$hdtv-collection:          ('720p', '1080', '2K', '4K');
+
+$mq-mobile:                768px;
+$mq-tablet: 1024px;

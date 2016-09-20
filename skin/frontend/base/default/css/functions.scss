@@ -1,0 +1,26 @@
+@function calculateRem($size) {
+  $remSize: $size / $browser-context;
+  @return $remSize * 1rem;
+}
+@mixin font-size($size) {
+  font-size: $size+px;
+  font-size: calculateRem($size);
+}
+@mixin b-color($color, $background){
+  $percent: alpha($color) * 100%;
+  $opaque: opacify($color, 1);
+  $solid-color: mix($opaque, $background, $percent);
+  background-color: $solid-color;
+  background-color: $color;
+}
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin active-state {
+  background: $color-primary;
+  border-color: $color-primary;
+  color: $color-white;
+}
